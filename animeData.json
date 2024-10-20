@@ -2359,7 +2359,15 @@
                 "videoUrl": {
                     "terabox": "https://www.terabox.com/sharing/embed?surl=z2UnpMVgNxYuy0SDOHWA3w"
                 }
-            }
+            },
+              {
+                "title": "Mecha-ude Episode 3",
+                "videoUrl": {
+                    "daily": "https://geo.dailymotion.com/player.html?video=x97ps48",
+                    "mega": "https://mega.nz/embed/UQIzVDrB#DqEwzZaqTcYjpYco02sr3sfDAsQZctMi1eMVw8au3lw",
+                    "terabox": "https://geo.dailymotion.com/player.html?video=x97ps48"
+                }
+              }
         ]
     },
     {
@@ -2387,7 +2395,15 @@
                 "videoUrl": {
                     "terabox": "https://www.terabox.com/sharing/embed?surl=YGkyYd5K60a9I_HpafZVug"
                 }
-            }
+            },
+              {
+                "title": "Dandadan Episode 3",
+                "videoUrl": {
+                    "daily": "https://geo.dailymotion.com/player.html?video=k1erYDPD9DKsV7BHL8I",
+                    "mega": "https://mega.nz/embed/AUJzxa4R#f64GTHVy97LNZuQMQAX5iFMxs5gwLx4u7G_d7LsbJXM",
+                    "terabox": "https://www.terabox.com/sharing/embed?surl=O9AlU9laWroCog_FOJEE9w"
+                }
+              }
         ]
     },
     {
@@ -2421,7 +2437,16 @@
                 "videoUrl": {
                     "mega": "https://mega.nz/embed/zi5z3a7Y#WQMxeJL5i-9lbjnLfWhfG4GRxSae1fvHtHpxreB33Jk"
                 }
-            }
+            },
+              {
+                "title": "Hitoribocchi no Isekai Kouryaku Episode 4",
+                "videoUrl": {
+                    "anodana": "https://anodana.com/play/blog.php?url=AD6v5dzaFPatpKAKbGNoP4-Bz-B38IxzjAEMRm9xIC2R0ZnyM811VGSSRvc_cWrZ0zKpd_1HdNqoGI59AMD7LnpZybMSeuqsJ5ZVTrcFjuXbIkQRyiDyEwdd9ZaRRy-MyxToZFyp8ZJK",
+                    "mega": "https://mega.nz/embed/sRRQhLpA#7iJkplx_ZJlHuhPx_p2aDul6FSnQJWP8W0cqR1kJsr4",
+                    "terabox": "https://www.terabox.com/sharing/embed?surl=fbnkpBr_-n1c45VPgPox6A",
+                    "daily": "https://geo.dailymotion.com/player.html?video=x97jdqo"
+                }
+              }
         ]
     },
     {
