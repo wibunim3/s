@@ -1,0 +1,163 @@
+#sidebar_right {
+    float: right;
+    width: 320px;
+}
+#sidebar_right .fanspage {
+    height: 205px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#sidebar_right .latestepisodes li .video {
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.skoraniser {
+    background: var(--third-color);
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 3px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#sidebar_right .latestepisodes li {
+    color: var(--font-color);
+    line-height: 27px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+#sidebar_right .latestepisodes li {
+    margin-right: 5px;
+}
+#sidebar_right .latestepisodes li .lefts {
+    float: left;
+    overflow: hidden;
+    width: 70%;
+}
+#sidebar_right .latestepisodes li .lefts,
+#sidebar_right ul li .right .latest,
+#sidebar_right ul li .right .title,
+.latestepisodes li .ongoingkiri,
+.rekomen,
+.row {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#sidebar_right .latestepisodes li .video {
+    background: var(--font3-color);
+    color: var(--font2-color);
+    float: right;
+    line-height: normal;
+    margin: 4px 0;
+    padding: 3px 10px;
+    width: 60px;
+}
+#sidebar_right .latestepisodes li h3.lefts {
+    font-size: 13px;
+    font-weight: 400;
+}
+#sidebar_right .latestepisodes li span {
+    float: right;
+}
+#sidebar_right .latestepisodes li:hover {
+    background-color: var(--third-color);
+    color: #fff;
+}
+#sidebar_right .latestepisodes li:hover .lefts {
+    color: #fff;
+}
+#sidebar_right .latestepisodes li:hover .video {
+    background: #fff;
+    color: rgba(13, 44, 134, 0.7);
+}
+#sidebar_right .latestepisodes li:hover span {
+    color: #fff;
+}
+#sidebar_right .side {
+    margin: 10px 0;
+    background: var(--primary-color);
+}
+#sidebar_right h3 {
+    background: var(--header-color);
+    color: var(--font2-color);
+    font-size: 13px;
+    line-height: 35px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+#sidebar_right h3 span {
+    color: #ecf0ff;
+    float: right;
+    position: relative;
+    top: 8px;
+}
+#sidebar_right ul {
+    overflow: hidden;
+}
+#sidebar_right ul li {
+    background: var(--secondary-color);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 6px;
+    overflow: hidden;
+    padding: 6px;
+}
+#sidebar_right ul li .bor .limit {
+    height: 39px;
+    overflow: hidden;
+}
+#sidebar_right ul li .right {
+    font-size: 13px;
+    height: 41px;
+    line-height: 18px;
+    margin-left: 35px;
+    padding: 1px 5px;
+}
+#sidebar_right ul li .right .latest {
+    display: block;
+    font-size: 13px;
+    overflow: hidden;
+}
+#sidebar_right ul li .right .title {
+    display: block;
+    font-weight: 700;
+    overflow: hidden;
+}
+#sidebar_right ul li .right h2.title {
+    font-size: 13px;
+}
+#sidebar_right ul li a.popseries {
+    color: rgba(13, 44, 134, 0.7);
+}
+#sidebar_right ul li a:hover {
+    background: var(--third-color);
+    box-shadow: none;
+}
+#sidebar_right ul li:hover {
+    background-color: var(--third-color);
+}
+#sidebar_right ul.latestepisodes {
+    background: var(--primary-color);
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+#sidebar_right ul.latestepisodes,
+.listinfo #onscroll,
+.listinfo #onscroll1 {
+    height: 188px;
+    overflow: hidden;
+}
+
+#sidebar_right ul li a,
+.latestepisodes li {
+    color: var(--font-color);
+}
+

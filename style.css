@@ -1,0 +1,570 @@
+.rgnav ul li a:hover,
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: var(--header-color);
+    border-bottom: 5px solid var(--secondary-color);
+    margin-bottom: 3px;
+    padding: 0;
+}
+#header .logo {
+    float: left;
+    height: 60px;
+}
+#header .logo .linklogo {
+    display: block;
+    height: 100%;
+    width: 130px;
+}
+#header .logo img {
+    padding: 5px;
+}
+#header form {
+    float: left;
+    margin: 15px 0 10px 30px;
+    position: relative;
+    width: 225px;
+}
+#header form #s {
+    background: #fff;
+    border: 3px solid var(--secondary-color);
+    border-radius: 4px;
+    box-shadow: none !important;
+    color: var(--header-color);
+    float: right;
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+}
+#header form .btn,
+form .btn {
+    background: 0;
+    border: 0;
+    color: var(--header-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: medium;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+}
+
+input {
+    border: 1px solid var(--secondary-color);
+    color: var(--font-color);
+    font-family: titillium, arial;
+    padding: 10px;
+    width: 100%;
+    background: var(--primary-color);
+}
+
+.rgnav ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.rgnav ul,
+.rgnav ul li {
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+.clear,
+.clear1 {
+    clear: both;
+}
+
+.menu .dashicons-admin-home,
+.menu .dashicons-arrow-down-alt2,
+.menu .dashicons-awards,
+.menu .dashicons-update,
+.menu .dashicons-sticky {
+    font-size: 14px;
+    line-height: 35px;
+}
+.menu .dashicons-sticky {
+    line-height: 1.4;
+}
+
+.rgnav .random {
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+    line-height: 31px;
+    margin: 6px 6px 6px 0;
+    padding: 0 8px;
+    text-transform: uppercase;
+}
+.rgnav .random,
+.rgnav ul li ul li a:hover {
+    background: var(--header-color);
+}
+.rgnav ul {
+    float: left;
+    margin: 15px 0 10px 30px;
+}
+.rgnav ul .current-menu-item a {
+    background: var(--third-color);
+    color: #fff;
+}
+.rgnav ul li {
+    float: left;
+}
+.rgnav ul li a {
+    display: block;
+    line-height: 35px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.rgnav ul li a,
+body {
+    font-family: Roboto, sans-serif;
+}
+.rgnav ul li a:hover {
+    background: var(--header2-color);
+}
+.rgnav ul li ul {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    display: none;
+    position: absolute;
+    text-align: center;
+    webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+.rgnav ul li ul li a {
+    background: var(--header2-color);
+    display: block;
+    line-height: 20px;
+    min-width: 150px;
+    padding: 5px 10px;
+}
+.rgnav ul li ul li a:hover {
+    color: var(--header2-color);
+}
+.rgnav ul li:hover ul {
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 345px;
+    background: var(--primary-color);
+    position: absolute;
+    left: -15px;
+    z-index: 9999;
+    top: 20px;
+}
+.rgnav ul li ul li {
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 8px 10px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.show-menu {
+    color: var(--font2-color);
+    cursor: pointer;
+    display: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 37px;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+}
+.show-menu .dashicons {
+    float: left;
+    font-size: 30px;
+    padding: 3px;
+}
+
+html {
+    scrollbar-color: var(--header2-color) var(--secondary-color);
+    scrollbar-width: thin;
+    background:;
+    color: #fff;
+    overflow-x: hidden;
+}
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+header {
+    background-color: #e70eb1e0;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+header h1 {
+    padding-top: 20px;
+    color: tomato;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+header h1 strong {
+    color: black;
+}
+
+:root {
+    --primary-color: #fff0f5;
+    --secondary-color: #ffc0cb;
+    --third-color: #e71597cc;
+    --font-color: #122014;
+    --font2-color: #fff;
+    --font3-color: #8397c9ed;
+    --bg-color: #ffc0cb;
+    --header-color: #e70eb1e0;
+    --header2-color: #880977e0;
+    --red-color: #ca0000;
+    --green-color: #852e6f;
+    --green-color2: #852e64;
+    --plyr-color-main: #eb21c9e0;
+    --disqus: #fff;
+}
+
+[data-theme="dark"] {
+    --primary-color: #5c6b8f;
+    --secondary-color: #4a5692;
+    --third-color: #3b5083;
+    --font-color: #eee;
+    --bg-color: #fff;
+    --green-color: #a8254c;
+    --header-color: #5b7fd4;
+    --header2-color: #5b7ac9;
+    --disqus: #fff;
+}
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+    --primary-color: #1c1e24;
+    --secondary-color: #30323c;
+    --third-color: #3f4451;
+    --font-color: #eee;
+    --bg-color: #121212;
+    --green-color: #28a825;
+    --header-color: #272a31;
+    --header2-color: #4c4e53;
+    --disqus-bg: #2a2d36;
+    --disqus-text: #e0e0e0;
+    --red-color: #ff6b6b;
+}
+.theme-switch-wrapper {
+    position: absolute;
+    right: 3%;
+    top: 25px;
+}
+.theme-switch-wrapper .text {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.theme-switch-wrapper .theme-switch {
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 15px;
+    margin: 0 5px 0 10px;
+    align-items: center;
+}
+.theme-switch-wrapper .theme-switch input {
+    display: none;
+}
+.theme-switch-wrapper .slider {
+    background-color: magenta;
+    position: absolute !important;
+    outline: 0;
+    width: 48px;
+    height: 24px;
+    padding: 0 !important;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+.theme-switch-wrapper .slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 0;
+    top: -1px;
+    transition: 0.7s;
+}
+.theme-switch-wrapper input:checked + .slider {
+    background-color: var(--font2-color);
+}
+.theme-switch-wrapper input:focus + .slider {
+    box-shadow: 0 0 1px #000;
+}
+.theme-switch-wrapper input:checked + .slider:before {
+    transform: translateX(24px);
+}
+.theme .slider.round {
+    border-radius: 34px;
+}
+.theme-switch-wrapper .slider.round::before {
+    border-radius: 50%;
+    background: var(--font2-color)
+        url("/wp-content/themes/kotakanime/images/pagi.svg") center/18px
+        no-repeat;
+}
+.theme-switch-wrapper input:checked + .slider.round::before {
+    border-radius: 50%;
+    background: #1d2129 url("/wp-content/themes/kotakanime/images/malam.svg")
+        center/18px no-repeat;
+}
+.theme-switch-wrapper .slider.round:hover::before {
+    box-shadow:
+        rgba(150, 150, 150, 0.5) 0 1px 3px,
+        rgba(150, 150, 150, 0.1) 0 0 0 10px;
+}
+
+a,
+body,
+div,
+form,
+h1,
+h2,
+h3,
+header,
+html,
+img,
+label,
+li,
+span,
+ul {
+    border: 0;
+    direction: ltr;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+header {
+    display: block;
+}
+body {
+    background: var(--bg-color);
+    color: var(--font-color);
+    font-size: 13px;
+    line-height: 1.2em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+img {
+    image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
+}
+img[data-lazy-src] {
+    opacity: 0;
+}
+input#show-menu[type="checkbox"] {
+    display: none !important;
+    webkit-appearance: none;
+}
+input[type="checkbox"]:checked ~ #menu-navbar {
+    display: block;
+    position: relative;
+    z-index: 9999;
+}
+
+@media only screen and (max-width: 540px) {
+    .top .t3 {
+        margin-right: 20px;
+    }
+    .theme-switch-wrapper {
+        top: 23px;
+        right: 5%;
+    }
+    .load_more {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #header .logo {
+        text-align: center;
+    }
+    #header .logo img {
+        height: auto;
+    }
+    #header form {
+        width: 85%;
+    }
+
+    .rgnav ul {
+        display: none;
+        margin: unset;
+        position: static;
+        width: 100%;
+    }
+    .rgnav ul li {
+        background: var(--header-color);
+        float: none;
+        position: relative;
+        width: 100%;
+    }
+    .rgnav ul li a {
+        color: var(--font2-color);
+        display: block;
+        font-size: 14px;
+        line-height: 37px;
+        padding: 0 15px;
+        text-transform: uppercase;
+    }
+    .rgnav ul li ul {
+        box-shadow: none;
+        display: block;
+        padding-left: 5px;
+        position: relative;
+        text-align: left;
+        webkit-box-shadow: none;
+    }
+    .rgnav ul li ul li a {
+        margin: 5px 0 5px 30px;
+    }
+    .rgnav ul li ul li {
+        padding: unset;
+    }
+    .rgnav ul li:hover ul {
+        width: 100%;
+        background: unset;
+        position: relative;
+        top: 0;
+    }
+    .rgnav ul li ul li a:hover {
+        color: unset;
+    }
+
+    .show-menu {
+        background: rgba(52, 77, 147, 0.8);
+        display: block;
+        width: 100%;
+    }
+    .show-menu {
+        background: var(--third-color);
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    #header .logo .linklogo {
+        width: 100%;
+    }
+}
+/* Default Light Theme */
+
+/* Buat tampilan iframe responsive */
+.anime-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.anime-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.anime-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.anime-card img {
+    width: 100%;
+    height: auto;
+}
+
+.anime-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.Kotaktera,
+.Kotakstreamku,
+.Vidhide,
+.Nontonku {
+}
+#video-container {
+    width: 100%;
+    text-align: center;
+}
+
+#server-navigation {
+    margin-bottom: 20px;
+}
+
+.server-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.server-button:hover {
+    opacity: 0.8;
+}
+
+/* Gaya khusus untuk setiap server */
+
+.kotakstreamku {
+    background-color: #4f80ff;
+    color: white;
+}
+
+.vidhide {
+    background-color: #4fff4f;
+    color: white;
+}
+
+.nontonku {
+    background-color: #ff4fff;
+    color: white;
+}
+
+.kotaktera {
+    background-color: #ffb84f;
+    color: white;
+}
+
+/* Tambahkan gaya lebih lanjut sesuai kebutuhan */
+
+#episode-navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.episode-button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #4f80ff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.episode-button:hover {
+    background-color: #4f60ff;
+}
