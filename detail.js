@@ -55,13 +55,13 @@ async function loadAnimeDetail() {
                <div class="sys">
                
                <div class="latestest">
-               <div class="latestheader">Episode Pertama</div>
+               <div class="latestheader">Episode Terakhir</div>
                <div class="latestepisode">
                <a href="${lastEpisodeUrl}">Episode ${anime.episode}</a></div>
                </div>
                
                <div class="latestest">
-               <div class="latestheader">Episode Terakhir</div>
+               <div class="latestheader">Episode Pertama</div>
                <div class="latestepisode">
                <a href="${firstEpisodeUrl}">Episode 1</a></div>
                </div>
